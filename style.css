@@ -160,25 +160,25 @@ body{
 
 .hinhtuvan {
     text-align: center;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 .khoituvan ul li a{
+    display: block;
     text-decoration: none;
 }
 
 .hinhtuvan>img, .khoituvan ul li a img {
     max-width: 100%;
     height: auto;
-    vertical-align: middle;
     border: 0;
-    margin-top: 8px;
+    /* margin-top: 8px; */
 }
 
 .khoituvan ul li {
     height: 36px;
-    border-bottom: 1px solid #3c5475;
-    margin-bottom: 9px;
+    /* border-bottom: 1px solid #3c5475; */
+    /* margin-bottom: 9px; */
 }
 
 span.text_sp {
@@ -243,7 +243,7 @@ span.text_sp {
     color: #fff;
     line-height: 1.8;
     text-align: center;
-    padding: 30px 50px 0;
+    padding: 30px 30px 0;
 }
 
 .join {
@@ -271,13 +271,13 @@ span.text_sp {
 
 .info_img{
     width: 25%;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .info_img>img{
     width: 100%;
     height: auto;
-    padding: 15px 0 10px 20px;
+    padding: 15px 0 50px 20px;
 }
 
 .item{
@@ -320,6 +320,10 @@ a.block{
 
     .space{
         width: 0;;
+    }
+
+    .info_img{
+        align-items: flex-end;
     }
 }
 
